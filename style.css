@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 1220px;
+    margin: 0 auto;
+}
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar{
+    background-color: black;
+    padding: 10px;
+    margin: 70px;
+    
+}
+a{
+  text-decoration: none;
+color: white;
+}
+ul{
+    display: flex;  
+    list-style: none;
+    gap: 20px;
+}
+h1{
+    font-size: 70px;
+}
+.text{
+    width: 390px;
+    text-align: center;
+}
+.cards{
+    gap: 40px;
+   flex-wrap: wrap;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 70px;
+}
+strong{
+    font-size: 20px;
+}
